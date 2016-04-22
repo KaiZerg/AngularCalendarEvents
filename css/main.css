@@ -26,6 +26,22 @@ body, html {
     padding: 20px 0;
 }
 
+a.back {
+    background: #ffbd1a;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    margin: 0 0 20px;
+    padding: 14px 0;
+    text-align: center;
+    width: 200px;
+}
+
+a.back:hover {
+    background: #f7a500;
+    text-decoration: none;
+}
 .event {
     padding: 20px;
     width: 100%;   
